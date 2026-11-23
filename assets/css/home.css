@@ -418,3 +418,33 @@ html.ready .st-cue{opacity:1;transition:opacity 1s 1.6s}
   .wcc:not(.on) .t>*:not(.no){opacity:1}
   .wc-ctrl,.wc-tabs{display:none}
 }
+
+/* ---------- credentials: more certificates ---------- */
+.cr-more{margin-top:clamp(80px,9vw,140px)}
+.cr-more-h{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;padding-bottom:22px;border-bottom:1px solid var(--lined);margin-bottom:clamp(28px,3vw,44px)}
+.cr-more-h h2{font-family:var(--serif);font-weight:400;font-size:clamp(44px,5vw,84px);line-height:.95;letter-spacing:-.02em}
+.cr-more-h h2 em{font-style:italic;color:var(--butter)}
+.cr-more-h h3{font-family:var(--serif);font-weight:400;font-size:clamp(36px,3.6vw,58px);line-height:1}
+.cr-more-h h3 em{font-style:italic;color:var(--butter)}
+.cr-more-h .lab{opacity:.6}
+.cr-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.crc{margin:0;cursor:zoom-in;display:flex;flex-direction:column;gap:18px}
+.crc .im{position:relative;aspect-ratio:4/3;border-radius:18px;background:rgba(252,248,241,.96);overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.55);transition:transform .7s var(--out)}
+.crc .im img{position:absolute;inset:8%;width:84%;height:84%;object-fit:contain;transition:transform .9s var(--out)}
+.crc:hover .im{transform:translateY(-6px)}
+.crc:hover .im img{transform:scale(1.04)}
+.crc figcaption{display:grid;gap:6px}
+.crc figcaption .lab{opacity:.6}
+.crc figcaption b{font-family:var(--serif);font-weight:400;font-size:clamp(22px,1.8vw,28px);line-height:1.1}
+.crc figcaption b em{font-style:italic;color:var(--butter)}
+.crc figcaption small{font-size:13px;opacity:.7}
+@media (max-width:1000px){.cr-cards{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.cr-cards{grid-template-columns:1fr}}
+
+/* credentials: balanced 3 + 2 grid */
+.cr-cards{grid-template-columns:repeat(6,minmax(0,1fr));gap:clamp(18px,2vw,28px) clamp(16px,1.6vw,24px)}
+.cr-cards .crc{grid-column:span 2}
+.cr-cards .crc:nth-child(4){grid-column:2/span 2}
+.cr-cards .crc:nth-child(5){grid-column:4/span 2}
+@media (max-width:1000px){.cr-cards{grid-template-columns:1fr 1fr}.cr-cards .crc,.cr-cards .crc:nth-child(4){grid-column:auto}.cr-cards .crc:nth-child(5){grid-column:1/-1;max-width:calc(50% - 9px);justify-self:center;width:100%}}
+@media (max-width:520px){.cr-cards{grid-template-columns:1fr}.cr-cards .crc:nth-child(5){max-width:none}}

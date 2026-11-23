@@ -3,44 +3,40 @@
 var IMG='assets/img/';
 var PROJECTS=[
  {slug:'soft-head-hammer',title:'Soft Head Hammer',course:'Machine Shop',tag:'Featured',tone:'sky',cover:'hammer-2-cut.webp',
-  short:'A working soft-faced hammer, turned, drilled and knurled from raw stock in the machine shop.',
-  lead:'A working soft-head hammer made from raw stock: a turned steel head, two press-in soft caps and a <em>knurled handle that threads into place.</em>',
-  body:['The project took a part from drawing to a usable tool. Each component was planned on paper first, so the order of lathe operations set up the next step cleanly.',
-        'It was a first real test of tolerances: small errors on a single part only show when everything is assembled, so measuring at every stage was part of the job.'],
-  meta:[['Course','Machine Shop'],['Type','Hands-on build'],['Processes','Turning, knurling'],['Output','Working tool']],
-  tags:['Lathe turning','Facing','Drilling','Knurling','Threading','Precision measuring'],
-  steps:[['Read the drawing','Started from the part drawings for the head, caps and handle, and planned the order of operations for each part.'],
-         ['Turn the head','Faced and turned the steel head to size on the lathe, then drilled the cross hole that takes the handle.'],
-         ['Make the handle','Turned the handle, cut the thread that joins it to the head and knurled the grip so it holds well in the hand.'],
-         ['Fit and finish','Pressed the soft red caps onto both ends, assembled the parts and checked fit and finish.']],
-  gallery:[['hammer-1.webp','Components before assembly: handle, steel head and soft cap'],['hammer-2.webp','The finished hammer, assembled'],['hammer-3.webp','Close-up of the head and threaded handle joint']],
-  learned:[['Precision matters','Small errors on one part show up at assembly, so measuring at each step pays off.'],['Plan the sequence','The order of lathe operations decides how easy the next one is.'],['Shop discipline','Working on real machines builds good habits and respect for the tools.']]},
+  short:'A functional soft-faced hammer, machined from aluminium components in the workshop.',
+  lead:'Manufactured a soft-faced hammer using aluminium components through practical machining operations, <em>applying fundamental manufacturing principles and workshop techniques to produce a functional mechanical tool.</em>',
+  body:[],
+  meta:[['Course','Machine Shop'],['Material','Aluminium'],['Processes','Turning, milling'],['Output','Working tool']],
+  tags:['Lathe machine operation (turning, facing, knurling, drilling and automatic machining)','Vertical milling','Dimensional measurement (Vernier caliper, micrometer)','Workshop safety and regulations'],
+  steps:[['Machining the parts','Performed machining operations to shape and produce the hammer components.'],
+         ['Workshop practice','Applied workshop practices, including accurate measurements, machining precision, and safe equipment handling.'],
+         ['Hands-on experience','Gained practical experience in machining processes and the operation of industrial workshop equipment.']],
+  gallery:[['hammer-1.webp','Components before assembly: handle, head and soft cap'],['hammer-2.webp','The finished hammer, assembled'],['hammer-3.webp','Close-up of the head and threaded handle joint']],
+  learned:[]},
  {slug:'injection-molding-keychain',title:'Injection Molded Keychain Tag',course:'Material Processes',tag:'Polymers',tone:'butter',cover:'keychain-1-cut.webp',
-  short:'An oval keychain tag with raised lettering, produced by injection molding.',
-  lead:'A small oval tag with raised lettering and a ring hole, made to see how <em>a mold turns molten plastic into a finished part.</em>',
-  body:['Injection molding is how most everyday plastic parts are made. This project followed the full cycle: melting the polymer, injecting it into the cavity, cooling and ejecting the part.',
-        'The detail in the lettering and the patterned face made it a good test of how well the mold fills, and how process settings change the surface finish.'],
-  meta:[['Course','Material Processes'],['Process','Injection molding'],['Material','Thermoplastic'],['Output','Molded tags']],
-  tags:['Injection molding','Mold design','Polymers','Process parameters','Quality inspection'],
-  steps:[['Design the tag','Defined the oval shape, the raised lettering and the hole for the key ring.'],
-         ['Prepare the mold','Set up the mold cavity so the text and edges fill cleanly.'],
-         ['Mold the part','Melted the plastic and injected it into the mold, then let it cool and set before ejecting.'],
-         ['Inspect','Checked the finished tags for complete fill, sharp lettering and surface finish.']],
-  gallery:[['keychain-1.webp','Front face of the molded tag'],['keychain-2.webp','A second molded tag with raised text']],
-  learned:[['Design for the process','Wall thickness and text depth affect how well the mold fills.'],['Parameters count','Temperature, pressure and cooling time all change the result.'],['Theory, made visible','Seeing a polymer process in action made the class material concrete.']]},
- {slug:'stainless-steel-sword',title:'Stainless Steel Sword',course:'Mechanics, Statics & Dynamics',tag:'AutoCAD',tone:'navy',cover:'sword-cad.webp',flat:true,
-  short:'From a hand sketch to a fully dimensioned AutoCAD drawing, ready to manufacture in stainless steel.',
-  lead:'Designing and manufacturing a stainless steel sword: <em>first sketched by hand, then drawn and dimensioned in AutoCAD</em> so it could be made.',
-  body:['The design started as a quick proportional sketch on lined paper, working out the blade, guard, grip and pommel.',
-        'It was then rebuilt as a clean 2D drawing in AutoCAD with every feature dimensioned, from the overall 65 unit length to the R4 radius and the Ø10 pommel, applying statics and dynamics ideas to the shape along the way.'],
-  meta:[['Course','Statics & Dynamics'],['Software','AutoCAD'],['Material','Stainless steel'],['Output','Drawing and part']],
-  tags:['AutoCAD','Technical drawing','Dimensioning','Statics','Dynamics','Manufacturing'],
-  steps:[['Sketch the idea','Drew the sword by hand to work out proportions for the blade, guard, grip and pommel.'],
-         ['Draw in AutoCAD','Rebuilt the sketch as a clean 2D drawing with every feature dimensioned, including radii and the Ø10 pommel.'],
-         ['Check the mechanics','Applied statics and dynamics to the shape, thinking about balance and the loads on the blade.'],
-         ['Manufacture','Used the drawing as the reference to cut and finish the part in stainless steel.']],
-  gallery:[['sword-sketch.webp','First hand sketch with rough dimensions'],['sword-cad.webp','Dimensioned AutoCAD drawing']],contain:true,
-  learned:[['Sketch, then refine','A quick sketch makes the CAD work faster and clearer.'],['Dimensions tell the story','A complete drawing is what lets someone else make the part.'],['Theory meets shape','Statics and dynamics explain why a design feels balanced.']]},
+  short:'A plastic keychain made from raw pellets on an injection molding machine.',
+  lead:'Manufactured a plastic keychain using an injection molding machine, <em>applying polymer processing principles to transform raw plastic pellets into a finished product</em> through a pre-existing mold.',
+  body:[],
+  meta:[['Course','Material Processes'],['Process','Injection molding'],['Material','Plastic pellets'],['Output','Keychain tag']],
+  tags:['Injection molding machine operation','Polymer processing','Thermoplastic manufacturing','Manufacturing equipment handling','Quality inspection'],
+  steps:[['Operate the machine','Personally operated the injection molding machine to manufacture the keychain.'],
+         ['Prepare the material','Prepared and processed plastic pellets through the injection molding process.'],
+         ['Follow the process','Applied the fundamental stages of polymer processing, including melting, injection, cooling, and solidification.'],
+         ['Inspect the part','Removed and inspected the final molded product to evaluate its overall quality and finish.']],
+  gallery:[['keychain-1.webp','Front face of the molded keychain'],['keychain-2.webp','A second molded keychain with raised text']],
+  learned:[]},
+ {slug:'stainless-steel-sword',title:'Stainless Steel Sword',course:'Mechanics, Statics & Dynamics',tag:'CNC',tone:'navy',cover:'sword-cad.webp',hero:'sword-photo.webp',flat:true,
+  short:'A sword-shaped stainless steel prototype, designed, CNC-manufactured and analysed for its centroid and balance.',
+  lead:'Designed and manufactured a stainless steel sword-shaped metal prototype using CNC technology. <em>The project involved translating an initial design into a physical component</em> while applying engineering principles related to geometry, mass distribution, and centroid calculations.',
+  body:[],
+  meta:[['Course','Statics & Dynamics'],['Process','CNC manufacturing'],['Material','2 mm stainless steel'],['Output','Metal prototype']],
+  tags:['CNC manufacturing','Engineering design','Stainless steel machining','Centroid calculations','Geometric analysis','Technical problem-solving'],
+  steps:[['Design','Developed the initial design and translated it into a manufacturable model.'],
+         ['CNC manufacture','Used CNC manufacturing technology to produce the 2 mm stainless steel component.'],
+         ['Find the centroid','Calculated the X and Y coordinates of the geometric centroid.'],
+         ['Check the balance','Applied engineering calculations to analyze the component\'s mass distribution and overall balance.']],
+  gallery:[['sword-photo.webp','The finished 2 mm stainless steel sword, CNC-cut'],['sword-sketch.webp','First hand sketch with rough dimensions'],['sword-cad.webp','Dimensioned drawing of the sword']],contain:true,
+  learned:[]},
  {slug:'blow-molding-bottle',title:'Blow Molded Bottle',course:'Material Processes',tag:'Polymers',tone:'warm',cover:'bottle-line.svg',flat:true,
   short:'A hollow plastic bottle made by inflating a heated preform against a mold.',
   lead:'A plastic bottle made by blow molding: a heated preform is <em>inflated with air until it takes the shape of the mold.</em>',
@@ -75,29 +71,33 @@ function renderProject(i){
     '<dl class="meta rv" style="--d:.15s">'+p.meta.map(function(m){return '<div><dt>'+m[0]+'</dt><dd>'+m[1]+'</dd></div>'}).join('')+'</dl>'+
   '</div></section>'+
   '<div class="pstage"><div class="wrap"><div class="pstage-in t-'+p.tone+' rv-img"><span class="dimv"></span>'+
-    '<img src="'+IMG+p.cover+'" alt="'+p.title+'"><span class="cap">Fig. '+pad(i+1)+' · '+p.title+'</span></div></div></div>'+
+    '<img src="'+IMG+(p.hero||p.cover)+'" alt="'+p.title+'"><span class="cap">Fig. '+pad(i+1)+' · '+p.title+'</span></div></div></div>'+
   '<section class="sec veil-l p-intro" style="padding-top:clamp(40px,6vw,90px)"><div class="wrap">'+
     '<div class="dim rv"><span class="n">A</span><span class="lab">Overview</span></div>'+
     '<div class="split"><div class="aside"><span class="lab rv mut">The brief</span></div><div>'+
       '<p class="big rv">'+p.lead+'</p>'+
-      '<div class="cols">'+p.body.map(function(b,k){return '<p class="rv" style="--d:'+k*.1+'s">'+b+'</p>'}).join('')+'</div>'+
-      '<div class="tags rv">'+p.tags.map(function(t){return '<span>'+t+'</span>'}).join('')+'</div>'+
+      (p.body.length?'<div class="cols">'+p.body.map(function(b,k){return '<p class="rv" style="--d:'+k*.1+'s">'+b+'</p>'}).join('')+'</div>':'')+
       (p.slug==='blow-molding-bottle'?'<p class="note rv">Photos of the finished bottle will be added here.</p>':'')+
     '</div></div>'+
   '</div></section>'+
   '<section class="sec veil-s"><div class="wrap">'+
-    '<div class="dim rv"><span class="n">B</span><span class="lab">Process</span></div>'+
-    '<div class="split" style="margin-bottom:clamp(30px,4vw,56px)"><div class="aside"><h2 class="h-xl rv">From plan <em>to part</em></h2></div><div></div></div>'+
-    '<div class="steps">'+p.steps.map(function(s,k){return '<div class="step rv"><span class="n">'+pad(k+1)+'</span><h3>'+s[0]+'</h3><p>'+s[1]+'</p></div>'}).join('')+'</div>'+
+    '<div class="dim rv"><span class="n">B</span><span class="lab">My contribution</span></div>'+
+    '<div class="split" style="margin-bottom:clamp(30px,4vw,56px)"><div class="aside"><h2 class="h-xl rv">My <em>contribution</em></h2></div><div></div></div>'+
+    '<div class="steps n'+p.steps.length+'">'+p.steps.map(function(s,k){return '<div class="step rv"><span class="n">'+pad(k+1)+'</span><h3>'+s[0]+'</h3><p>'+s[1]+'</p></div>'}).join('')+'</div>'+
+  '</div></section>'+
+  '<section class="sec veil-l p-skills"><div class="wrap">'+
+    '<div class="dim rv"><span class="n">C</span><span class="lab">Skills developed</span></div>'+
+    '<div class="split"><div class="aside"><h2 class="h-xl rv">Skills <em>developed</em></h2></div>'+
+    '<ul class="skd">'+p.tags.map(function(t,k){return '<li class="rv" style="--d:'+(k*.04)+'s"><span>'+pad(k+1)+'</span>'+t+'</li>'}).join('')+'</ul></div>'+
   '</div></section>'+
   '<section class="sec veil-l"><div class="wrap">'+
-    '<div class="dim rv"><span class="n">C</span><span class="lab">Gallery</span></div>'+
+    '<div class="dim rv"><span class="n">D</span><span class="lab">Gallery</span></div>'+
     '<div class="gal n'+Math.min(g,3)+'">'+p.gallery.map(function(f,k){return '<figure class="rv" style="--d:'+k*.1+'s" data-zoom="'+IMG+f[0]+'" data-cap="'+f[1]+'"><div class="fr"><img class="'+(p.contain?'contain':'')+'" src="'+IMG+f[0]+'" alt="'+f[1]+'" loading="lazy"></div><figcaption><b>'+pad(k+1)+'</b>'+f[1]+'</figcaption></figure>'}).join('')+'</div>'+
   '</div></section>'+
-  '<section class="sec veil-s"><div class="wrap">'+
-    '<div class="dim rv"><span class="n">D</span><span class="lab">Takeaways</span></div>'+
+  (p.learned.length?'<section class="sec veil-s"><div class="wrap">'+
+    '<div class="dim rv"><span class="n">E</span><span class="lab">Takeaways</span></div>'+
     '<div class="learn">'+p.learned.map(function(l,k){return '<div class="rv" style="--d:'+k*.1+'s"><h4>'+l[0]+'</h4><p>'+l[1]+'</p></div>'}).join('')+'</div>'+
-  '</div></section>'+
+  '</div></section>':'')+
   '<nav class="pn veil-c dark" aria-label="More projects"><a class="next" href="#work-'+pv.slug+'"><span class="lab">Previous project · '+pv.course+'</span><h2><i>←</i>'+pv.title+'</h2></a>'+
   '<a class="next" href="#work-'+nx.slug+'"><span class="lab">Next project · '+nx.course+'</span><h2>'+nx.title+'<i>→</i></h2></a></nav>';
   document.title=p.title+' · Salma Wael';
@@ -183,8 +183,6 @@ function buildHome(){
   gsap.matchMedia().add('(min-width:901px)',function(){
     gsap.fromTo('.ab4-arch',{y:80},{y:-30,ease:'none',scrollTrigger:{trigger:'.ab4-collage',start:'top bottom',end:'bottom top',scrub:true}});
   });
-  // 6. certificate straightens as it arrives
-  gsap.fromTo('.cr-cert img',{rotateX:22,rotateZ:-8,scale:.82,y:60},{rotateX:0,rotateZ:-1.5,scale:1,y:0,ease:'none',scrollTrigger:{trigger:'.cr',start:'top 85%',end:'center 55%',scrub:true}});
   // 7. contact parallax
   gsap.fromTo('.ct h2',{y:80},{y:0,ease:'none',scrollTrigger:{trigger:'.ct',start:'top bottom',end:'top 30%',scrub:true}});
 }

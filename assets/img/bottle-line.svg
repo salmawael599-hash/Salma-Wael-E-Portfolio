@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" font-family="DM Sans, sans-serif">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#345995" stroke-opacity=".14"/></pattern>
+    <marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#345995"/></marker>
+  </defs>
+  
+  <!-- bottle outline -->
+  <path d="M370 150h60v40c0 18 8 26 20 38c38 36 50 62 50 110v300c0 22-14 36-36 36H336c-22 0-36-14-36-36V338c0-48 12-74 50-110c12-12 20-20 20-38z" fill="#FCF8F1" stroke="#345995" stroke-width="3"/>
+  <rect x="362" y="122" width="76" height="34" rx="6" fill="#DA8941" stroke="#345995" stroke-width="3"/>
+  <!-- parting line -->
+  <line x1="400" y1="110" x2="400" y2="700" stroke="#D93621" stroke-width="2" stroke-dasharray="14 8 3 8"/>
+  <!-- wall thickness hint -->
+  <path d="M316 340c0-44 12-68 46-100" fill="none" stroke="#345995" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M484 340c0-44-12-68-46-100" fill="none" stroke="#345995" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M316 340v304c0 14 8 22 22 22h124c14 0 22-8 22-22V340" fill="none" stroke="#345995" stroke-opacity=".45" stroke-width="2"/>
+  <!-- dims -->
+  <line x1="300" y1="740" x2="500" y2="740" stroke="#345995" stroke-width="1.5" marker-start="url(#a)" marker-end="url(#a)"/>
+  <line x1="300" y1="690" x2="300" y2="752" stroke="#345995"/><line x1="500" y1="690" x2="500" y2="752" stroke="#345995"/>
+  <text x="400" y="770" text-anchor="middle" fill="#345995" font-size="16" font-weight="600" letter-spacing="2">BODY Ø</text>
+  <line x1="580" y1="122" x2="580" y2="672" stroke="#345995" stroke-width="1.5" marker-start="url(#a)" marker-end="url(#a)"/>
+  <line x1="440" y1="122" x2="592" y2="122" stroke="#345995"/><line x1="500" y1="672" x2="592" y2="672" stroke="#345995"/>
+  <text x="600" y="402" fill="#345995" font-size="16" font-weight="600" letter-spacing="2">HEIGHT</text>
+  <!-- balloons -->
+  <g fill="#FCF8F1" stroke="#345995" stroke-width="2"><circle cx="210" cy="140" r="22"/><circle cx="210" cy="300" r="22"/><circle cx="210" cy="520" r="22"/></g>
+  <g fill="#345995" font-size="15" font-weight="700" text-anchor="middle"><text x="210" y="145">01</text><text x="210" y="305">02</text><text x="210" y="525">03</text></g>
+  <g stroke="#345995" stroke-width="1.5"><line x1="232" y1="140" x2="360" y2="140"/><line x1="232" y1="300" x2="330" y2="300"/><line x1="232" y1="520" x2="300" y2="520"/></g>
+  <g fill="#345995" font-size="12" font-weight="600" letter-spacing="1.6"><text x="110" y="180">NECK / FINISH</text><text x="140" y="340">SHOULDER</text><text x="160" y="560">BODY</text></g>
+  <text x="40" y="60" fill="#345995" font-size="14" font-weight="600" letter-spacing="3">BLOW MOLDING · CONCEPT SKETCH</text>
+  <text x="40" y="84" fill="#D93621" font-size="12" font-weight="600" letter-spacing="2">- · - MOLD PARTING LINE</text>
+</svg>

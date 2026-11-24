@@ -239,13 +239,14 @@ html.ready .st-cue{opacity:1;transition:opacity 1s 1.6s}
 .ct p.sub{max-width:52ch;margin:30px auto 0;color:var(--mut);font-size:18px}
 .ct-mail{display:inline-block;margin-top:44px;font-family:var(--serif);font-size:clamp(28px,3.4vw,50px);background:linear-gradient(currentColor,currentColor) 0 100%/100% 1px no-repeat;padding-bottom:6px;transition:background-size .7s var(--out);word-break:break-word}
 .ct-mail:hover{background-size:0 1px;background-position:100% 100%}
-.ct-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:clamp(60px,7vw,100px);border-top:1px solid var(--line);text-align:left}
+.ct-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:clamp(60px,7vw,100px);border-top:1px solid var(--line);text-align:left}
 .ct-row>*{padding:22px 20px 0 0;display:grid;gap:6px}
 .ct-row .lab{font-size:11px}
 .ct-row b{font-family:var(--serif);font-weight:400;font-size:24px}
 .ct-row a b{transition:color .3s}
 .ct-row a:hover b{color:var(--royal)}
-@media (max-width:760px){.ct-row{grid-template-columns:1fr}.ct-row>*{padding-bottom:16px}}
+@media (max-width:1000px){.ct-row{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.ct-row{grid-template-columns:1fr}.ct-row>*{padding-bottom:16px}}
 
 /* footer name reveal */
 .foot-name .ch{display:inline-block;overflow:hidden;vertical-align:top;padding:0 .1em .1em;margin:0 -.1em}
